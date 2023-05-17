@@ -1,0 +1,56 @@
+ #show_sketch
+{
+float:right;
+background-color: rgb(253, 163, 177);
+border-width: 2px ;border-color: white;border-radius: 10px;
+color: white;
+}
+#timer
+{
+float:left;
+background-color: rgb(253, 163, 177);
+border-width: 2px ;border-color: white;border-radius: 10px;
+color: white;
+font-size: medium;
+}
+#score
+
+{
+float:left;
+background-color: rgb(246, 188, 117);
+border-width: 2px ;border-color: white;border-radius: 10px;
+color: white;
+font-size: medium;
+}
+
+#clear_canvas{
+    border-width: 2px ;border-color: white;border-radius: 10px;
+}
+
+body{
+background-color: rgb(192, 173, 237);
+color: white;
+font: bold;
+}
+
+canvas
+{
+border:6px solid white;
+border-radius: 10px;
+animation-name: Flashy-flashy;
+animation-duration:1s;
+animation-iteration-count: infinite;
+}
+@keyframes Flashy-flashy {
+    from{box-shadow:2px 2px 38px rgb(255, 153, 0);}
+    to{box-shadow:2px 2px 38px rgb(255, 121, 177);}
+
+
+    
+}
+
+
+
+
+
+
